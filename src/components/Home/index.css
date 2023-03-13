@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.bg-container {
+  width: 100%;
+}
+
+.clothes-img {
+  height: 200px;
+  width: 200px;
+  margin-left: 20px;
+}
+.heading {
+  color: #1e293b;
+}
+.content-para {
+  color: #64748b;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+.shop-now-btn {
+  background-color: blue;
+  color: aliceblue;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .home-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+}

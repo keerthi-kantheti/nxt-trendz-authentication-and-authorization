@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.nav-md {
+  display: none;
+}
+.nav-sm {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 40px;
+  margin-right: 100px;
+}
+img {
+  width: 20px;
+  display: block;
+}
+.logout-logo-sm-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.sm-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e6f6ff;
+
+  padding: 5px;
+}
+li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-sm {
+    display: none;
+  }
+  .nav-md {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .logo {
+    height: 50px;
+    width: 100px;
+  }
+  .md-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #64748b;
+  }
+  .logout-btn-md {
+    background-color: #0b69ff;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 3px;
+    padding: 3px;
+  }
+}
